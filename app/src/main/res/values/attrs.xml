@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MProgressBar">
+        <attr name="top_textSize" format="dimension" />
+        <attr name="progressBarHeight" format="dimension" />
+        <attr name="top_textColor" format="color" />
+        <attr name="bottom_textColor" format="color" />
+        <attr name="bottom_textSize" format="dimension" />
+        <attr name="top_textBackground" format="reference|integer" />
+    </declare-styleable>
+</resources>
