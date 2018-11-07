@@ -161,7 +161,7 @@ public class HorizontalProgressBar extends View {
         //计算数值背景Y坐标
         float bgY = -10 + paddingTop;
         //计算数值文字X坐标
-        float top_textX = bgX+(newBmp.getWidth()-getTextWidth(topText))/2;
+        float top_textX = bgX+(newBmp.getWidth()-mPaint.measureText(topText))/2;
         float top_textY = bgY + mTopBackgroundBitmapHeight / 2+8;
         //绘制文字和背景
         canvas.drawBitmap(newBmp, bgX, bgY, mPaint);
